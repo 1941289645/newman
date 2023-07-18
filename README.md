@@ -1,6 +1,24 @@
 # newman
  静态html网页-纽曼官网
 
+## 界面展示
+
+<img src="README.assets/01 首页.jpg" alt="01 首页" style="zoom:67%;" />
+
+<img src="README.assets/03 关于我们.jpg" alt="03 关于我们" style="zoom:67%;" />
+
+![04 新闻中心](README.assets/04 新闻中心.jpg)
+
+![05 新闻详情](README.assets/05 新闻详情.jpg)
+
+![06 产品中心](README.assets/06 产品中心.jpg)
+
+![07 产品详情](README.assets/07 产品详情.jpg)
+
+……
+
+## 思维导图
+
 ![image-20230718103145382](README.assets/image-20230718103145382.png)
 
 ## 设计图分析
