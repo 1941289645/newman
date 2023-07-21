@@ -20,16 +20,14 @@ header .nav li{
     margin-right: 56px;
     font-size: 16px;
 }
-header .nav li:first-child:after,header .nav li:hover{
-    content: "";
-    display: block;
+header .nav li:first-child,header .nav li:hover{
     border-bottom: 4px solid #01a1ff;
 }
 header .nav li a{
    color: #333;
 }
-header .nav li .active{
-    color: #01a1ff;
+.active{
+    color: #01a1ff !important;
 }
 header .nav li:hover a{
     color: #01a1ff;
@@ -45,13 +43,190 @@ header .language li{
     border: 1px solid transparent;
     text-align: center;
     margin-top: 15px;
+    cursor: pointer;
 }
 header .language li:first-child{
     border: 1px solid #ccc;
 }
 header .language li:hover{
-    float: left;
-    width: 50px;
-    height: 50px;
     border: 1px solid #ccc;
+}
+header .language li:last-child:hover header .language li:first-child{
+    border: 1px solid transparent;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.banner .imgs{
+    width: 1000%;
+    position: absolute;
+}
+.banner li{
+    float: left;
+}
+.banner img{
+    width: 100%; /**/
+    height: 400px;
+}
+.prev,.next{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top:184px;
+}
+.prev{
+    left: 40px;
+    background: url(../home//images/index-xb2.png) no-repeat;
+}
+.next{
+    right: 40px;
+    background: url(../home//images/index-xb1.png) no-repeat;
+}
+.prev:hover{
+    background: url(../home//images/index-xb4.png) no-repeat;
+}
+.next:hover{
+    background: url(../home//images/index-xb3.png) no-repeat;
+}
+.banner .count{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: 25.5px;
+}
+.banner .count li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 5px;
+    opacity: .1;
+    filter: alpha(opacity=10);
+    cursor: pointer;
+}
+.banner .count li.active{
+    background-color: #01a1ff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+/* 标题_公共样式 */
+.title{
+    font:34px "Franklin Gothic Medium";
+    text-transform: uppercase;/*字母全部大写*/
+    text-align: center;
+    position: relative;
+    margin-bottom: 44px;
+}
+.title::after{
+    content: '';
+    display: block;
+    width: 42px;
+    border-bottom: 4px solid #01a1ff;
+    position: absolute;
+    left: 50%;
+    margin-left: -21px;
+    bottom: -3px;
+}
+/* 首页p样式 */
+.index-p{
+    width: 1200px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+    padding: 0 85px 0 90px;
+    line-height: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #01a1ff;
+}
+.footer{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+.footer-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.footer-nav{
+    float: left;
+}
+.footer-nav dl{
+    float: left;
+    margin-right: 100px;
+}
+.footer-nav dl:last-child{
+    margin-right: 0;
+}
+.footer-nav dl dt{
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.footer-nav dl dd{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footer-concat{
+    float: right;
+}
+.footer-concat input,.footer-concat textarea{
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #01a1ff;
+    color: #fff;
+}
+.footer-concat input{
+    width: 138px;
+    height: 30px;
+    padding: 0 5px;
+}
+.footer-concat input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+.footer-concat input::-ms-input-placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+.footer-concat input:first-child{
+    margin-right: 17px;
+}
+.footer-concat textarea{
+    width: 310px;
+    height: 95px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.footer-concat textarea::-ms-input-placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+.footer-concat textarea::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+.footer-concat input[type=button]{
+    width: 110px;
+    height: 30px;
+}
+footer .copyright{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
 }
