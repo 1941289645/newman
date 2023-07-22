@@ -1,0 +1,28 @@
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.about-container{
+    width: 1218px;
+    margin: 60px auto 90px;
+    overflow: hidden;
+}
+.about-content{
+    float: left;
+    width: 970px;
+}
+article{
+    overflow: hidden;
+    padding: 40px 20px 0;
+    font-size: 14px;
+    color: #666;
+}
+article img{
+    float: left;
+    margin-right: 32px;
+}
+article p{
+    text-indent: 2em;
+    line-height: 24px;
+    margin-bottom:28px ;
+}
