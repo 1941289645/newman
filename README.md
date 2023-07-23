@@ -2,7 +2,7 @@
  静态html网页-纽曼官网
 
 ## 界面展示
-
+https://1941289645.github.io/newman/
 <img src="README.assets/01 首页.jpg" alt="01 首页" style="zoom:67%;" />
 
 <img src="README.assets/03 关于我们.jpg" alt="03 关于我们" style="zoom:67%;" />
