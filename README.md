@@ -7,14 +7,6 @@
 
 <img src="README.assets/03 关于我们.jpg" alt="03 关于我们" style="zoom:67%;" />
 
-![04 新闻中心](README.assets/04 新闻中心.jpg)
-
-![05 新闻详情](README.assets/05 新闻详情.jpg)
-
-![06 产品中心](README.assets/06 产品中心.jpg)
-
-![07 产品详情](README.assets/07 产品详情.jpg)
-
 ……
 
 ## 思维导图
